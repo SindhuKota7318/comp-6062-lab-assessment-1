@@ -1,9 +1,11 @@
-console.log()
-{
-    const myFullName = SindhuKota;
-    const myStudentNumber = 1153251;
-}
-const result = `SindhuKota-${1153251}`;
-console.log(result);
-const headerContent = document.querySelector('#h1');
 
+let header = document.querySelector('h1');
+
+header.innerHTML = '';
+
+if (header.innerHTML === 'SindhuKota') {
+    alert('Liam was here');
+}
+
+
+console.log(header);
